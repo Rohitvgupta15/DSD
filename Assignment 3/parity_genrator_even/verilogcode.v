@@ -2,7 +2,7 @@ module parity_genrator(
     input x,
     input y,
     input z,
-    output reg result
+    output result
     );
     
     xor (result,x,y,z);
