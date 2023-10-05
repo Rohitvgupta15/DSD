@@ -5,7 +5,7 @@ module comparator_2bit_tb;
                                                                                                            
   initial begin                                                                                            
                                                                                                            
-     $monitor($time |"x0 = %b | x1 = %b | y0 = %b | y1 = %b | x_greater_than_y = %b | x_equal_to_y = %b | x
+    $monitor($time |"x0 = %b | x1 = %b | y0 = %b | y1 = %b | x_greater_than_y = %b | x_equal_to_y = %b | x):
                                                                                                            
   end                                                                                                      
                                                                                                            
